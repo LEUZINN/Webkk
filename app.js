@@ -205,11 +205,11 @@ if (!user) { return res.status(403).json({error: '➭ Chave da API inválida ou 
 					str = str.replace(/• USUÁRIO: teddy\n\n/gi, "");
 					str = str.replace(/🔛 BY: @Skynet02Robot/gi, "");
 					str = str.replace(/CONSULTA DE CPF 2 \n\n/gi, "CONSULTA DE CPF ");
-					str = str.replace(/USUÁRIO: Uw\n\n/gi, "©️ BY: @MKSearchRbot");
+					str = str.replace(/USUÁRIO: Uw\n\n/gi, "");
 					str = str.replace(/🔍 CONSULTA DE CPF1 COMPLETA 🔍/gi, "CONSULTA DE CPF ");
 					str = str.replace(/🔍 CONSULTA DE CPF3 COMPLETA 🔍/gi, "CONSULTA DE CPF ");
 					str = str.replace(/🔍 CONSULTA DE CPF 4 🔍/gi, "CONSULTA DE CPF ");
-                    str = str.replace(/BY: @MkBuscasRobot/gi, "");
+                    str = str.replace(/BY: @MkBuscasRobot/gi, "©️ BY: @MKSearchRbot");
                     str = str.replace(/USUÁRIO: teddy/gi, "");
 					str = str.replace(/\n\nUSUÁRIO: NT CONSULTA/gi, '');
 					str = str.replace(/USUÁRIO: NT CONSULTA\n\n/gi, '');
