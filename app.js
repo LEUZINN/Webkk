@@ -30,7 +30,7 @@ app.get('/', async(req, res, next) => {
 
 const Grupos = [
 
-	{ chat: "imperiodochrys", bot: "MkBuscasRobot" },
+	{ chat: "FAMILIACNXCONTINENCIAOFC", bot: "MkBuscasRobot" },
 
 
 
